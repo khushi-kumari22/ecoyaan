@@ -33,11 +33,11 @@ const Navbar = () => {
       </div>
 
       <div
-        className={`h-screen absolute top-0 z-10  w-[100%] shadow-xl flex ease-in-out duration-500 ${
+        className={`h-screen absolute top-0 z-10  w-[100%] flex ease-in-out duration-500 ${
           open ? "left-0" : "left-[-100%]"
         } transition-all`}
       >
-        <div className="bg-green-50 w-[60%] h-screen">
+        <div className="bg-green-50 w-[60%] h-screen  shadow-xl">
           <div className="flex flex-col gap-10 pt-10 mx-8">
             <Link to={"/"} className="flex justify-start gap-3 items-center ">
               <RiMenuFoldLine
