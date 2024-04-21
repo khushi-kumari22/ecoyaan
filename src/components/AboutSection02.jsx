@@ -5,13 +5,13 @@ import about02 from "../assets/about02.png";
 const AboutSection02 = () => {
   return (
     <div className="py-14">
-      <h1 className="mx-14 text-3xl text-gray-800 font-semibold py-10">
+      <h1 className="mx-5 lg:mx-14 text-3xl text-gray-800 font-semibold py-10">
         Our Values
       </h1>
 
       <div className="flex flex-wrap justify-center gap-14 mx-auto">
-        <div className="flex w-[45%]">
-          <img src={about02} alt="" className="w-[28%] h-fit my-auto" />
+        <div className="flex flex-col md:flex-row w-[90%] lg:w-[45%]">
+          <img src={about02} alt="" className="w-[75%] md:w-[30%] mx-auto lg:w-[28%] h-fit my-auto" />
 
           <div>
             <h2 className="text-xl font-semibold">Trust</h2>
@@ -23,8 +23,8 @@ const AboutSection02 = () => {
           </div>
         </div>
 
-        <div className="flex w-[45%]">
-          <img src={about02} alt="" className="w-[28%] h-fit my-auto" />
+        <div className="flex flex-col md:flex-row w-[90%] lg:w-[45%]">
+          <img src={about02} alt="" className="w-[75%] md:w-[30%] mx-auto lg:w-[28%] h-fit my-auto" />
 
           <div>
             <h2 className="text-xl font-semibold">Trust</h2>
@@ -36,8 +36,8 @@ const AboutSection02 = () => {
           </div>
         </div>
 
-        <div className="flex w-[45%]">
-          <img src={about02} alt="" className="w-[28%] h-fit my-auto" />
+        <div className="flex flex-col md:flex-row w-[90%] lg:w-[45%]">
+          <img src={about02} alt="" className="w-[75%] md:w-[30%] mx-auto lg:w-[28%] h-fit my-auto" />
 
           <div>
             <h2 className="text-xl font-semibold">Trust</h2>
@@ -49,8 +49,8 @@ const AboutSection02 = () => {
           </div>
         </div>
 
-        <div className="flex w-[45%]">
-          <img src={about02} alt="" className="w-[28%] h-fit my-auto" />
+        <div className="flex flex-col md:flex-row w-[90%] lg:w-[45%]">
+          <img src={about02} alt="" className="w-[75%] md:w-[30%] mx-auto lg:w-[28%] h-fit my-auto" />
 
           <div>
             <h2 className="text-xl font-semibold">Trust</h2>

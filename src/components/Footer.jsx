@@ -3,8 +3,8 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="bg-gray-300">
-      <div className="flex gap-10 mx-10 py-28">
-        <div className="w-[25%]">
+      <div className="flex flex-col md:flex-row gap-10 mx-10 py-28">
+        <div className="w-[80%] md:w-[30%] lg:w-[25%]">
           <h1 className="text-xl font-semibold">Registered Address:</h1>
           <p className="text-lg text-gray-500">
             1-N-12T-781/1 Sri Krishna Vilasa, Urvastores, Ashoknagar(MR),
@@ -12,7 +12,7 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="w-[25%]">
+        <div className="w-[80%] md:w-[30%] lg:w-[25%]">
           <h1 className="text-xl font-semibold">Legal Business Name:</h1>
           <p className="text-lg text-gray-500">
             Kindkarma E-Retail Private Limited

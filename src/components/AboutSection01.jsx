@@ -3,9 +3,9 @@ import AboutImg from "../assets/about01.png"
 
 const AboutSection01 = () => {
   return (
-    <div className="flex justify-around items-center h-screen bg-green-50">
+    <div className="flex flex-col lg:flex-row justify-around items-center h-screen bg-green-50">
 
-      <div className="w-[60%] px-14 flex flex-col gap-5">
+      <div className="w-[90%] pt-16 lg:pt-0 lg:w-[60%] lg:px-14 flex flex-col gap-5">
         <h1 className="text-3xl font-semibold text-gray-800">About Ecoyaan</h1>
         <p className="text-xl text-gray-600 ">
           At Ecoyaan, we are more than just a platform. Our goal is to build a
@@ -32,7 +32,7 @@ const AboutSection01 = () => {
       </div>
 
 
-      <div className="w-[40%] px-10">
+      <div className="w-[90%] lg:w-[40%] lg:px-10">
         <img src={AboutImg} alt="" />
       </div>
 

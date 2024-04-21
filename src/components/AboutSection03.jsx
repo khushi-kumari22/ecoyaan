@@ -6,10 +6,10 @@ import propic02 from "../assets/profilepic02.png";
 const AboutSection03 = () => {
   return (
     <div className="bg-green-50 py-10">
-      <h1 className="mx-14 text-3xl text-gray-800 font-semibold py-10">Our Story</h1>
+      <h1 className="mx-10 lg:mx-14 text-3xl text-gray-800 font-semibold py-10">Our Story</h1>
 
-      <div className="flex gap-10 mx-12">
-        <div className="w-[26%] flex flex-col gap-5">
+      <div className="flex flex-col md:flex-row gap-10 mx-8 lg:mx-12">
+        <div className="w-[80%] mx-auto lg:w-[26%] flex flex-col gap-5">
           <img src={propic01} alt="" />
           <img src={propic02} alt="" />
         </div>

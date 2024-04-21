@@ -6,13 +6,13 @@ import AboutUs from "./components/AboutUs"
 
 function App() {
   return (
-    <>
+    <div className="relative">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />
       </Routes>
-    </>
+    </div>
   );
 }
 
